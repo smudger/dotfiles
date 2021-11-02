@@ -1,0 +1,21 @@
+#!/bin/bash
+# Create an alias to the current directory
+# COPYRIGHT Joe Reed
+
+cd_aliases_file=$HOME/zsh_cd_aliases
+source $cd_aliases_file
+
+if [[ $1 == "-h" ]]; then
+  echo "Usage: 'cdalias [alias]'. Creates an alias that can be used to cd into your current directory. Defaults to the directory name."
+  return
+elif [[ $# == 0 ]]; then
+  alias_name="$(basename $PWD)"
+else
+  alias_name=$1
+fi
+
+alias_command="alias $alias_name='cd $(pwd)'"
+echo $alias_command >> $cd_aliases_file
+source $cd_aliases_file
+
+echo "Alias created! ($alias_command)"
