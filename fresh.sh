@@ -12,6 +12,9 @@ if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
+# Install Rosetta 2 for Apple Silicon support
+sudo softwareupdate --install-rosetta
+
 # Update Homebrew recipes
 brew update
 
