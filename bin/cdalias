@@ -2,7 +2,7 @@
 # Create an alias to the current directory
 # COPYRIGHT Joe Reed
 
-cd_aliases_file=$HOME/zsh_cd_aliases
+cd_aliases_file=$HOME/.zsh_cd_aliases
 source $cd_aliases_file
 
 if [[ $1 == "-h" ]]; then

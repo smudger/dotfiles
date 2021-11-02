@@ -29,7 +29,7 @@ export MYVIMRC=$HOME/.vimrc
 export COMPOSE_DOCKER_CLI_BUILD=1
 
 # Source cd aliases (see bin/cdalias)
-CD_ALIASES_FILE=$HOME/zsh_cd_aliases
+CD_ALIASES_FILE=$HOME/.zsh_cd_aliases
 source $CD_ALIASES_FILE
 
 # Set list of themes to pick from when loading at random
