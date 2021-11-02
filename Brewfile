@@ -43,55 +43,42 @@ brew 'redis'
 brew 'yarn'
 
 # Apps
-# cask '1password'
-# cask 'caffeine'
-# cask 'dbngin'
-# cask 'discord'
-# cask 'docker'
-# cask 'figma'
-# cask 'firefox'
-# cask 'github'
-# cask 'google-chrome'
-# cask 'google-drive'
-# cask 'gpg-suite'
-# cask 'imageoptim'
-# cask 'insomnia'
-# cask 'pastebot'
-# cask 'phpmon'
-# cask 'phpstorm'
-# cask 'ray'
-# cask 'screenflow'
-# cask 'signal'
-# cask 'slack'
-# cask 'tableplus'
-# cask 'telegram-desktop'
-# cask 'the-unarchiver'
-# cask 'tinkerwell'
-# cask 'transmit'
-# cask 'tunnelbear'
-# cask 'tuple'
-# cask 'visual-studio-code'
-# cask 'zoom'
+cask '1password'
+cask 'alfred'
+cask 'brave-browser'
+cask 'discord'
+cask 'docker'
+cask 'github'
+cask 'gpg-suite'
+cask 'hey'
+cask 'iterm2'
+cask 'microsoft-teams'
+cask 'notion'
+cask 'phpmon'
+cask 'phpstorm'
+cask 'postman'
+cask 'signal'
+cask 'slack'
+cask 'spotify'
+cask 'tableplus'
+cask 'telegram-desktop'
+cask 'whatsapp'
+cask 'visual-studio-code'
 
 # Quicklook
-# cask 'qlmarkdown'
-# cask 'quicklook-json'
+cask 'qlmarkdown'
+cask 'quicklook-json'
 
 # Fonts
-# cask 'font-lato'
-# cask 'font-open-sans'
-# cask 'font-roboto'
-# cask 'font-source-code-pro-for-powerline'
-# cask 'font-source-code-pro'
-# cask 'font-source-sans-pro'
-# cask 'font-source-serif-pro'
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
 
 # Mac App Store
-# mas 'Byword', id: 420212497
-# mas 'Giphy Capture', id: 668208984
-# mas 'Keynote', id: 409183694
-# mas 'Numbers', id: 409203825
-# mas 'Spark', id: 1176895641
-# mas 'Speedtest', id: 1153157709
-# mas 'Things', id: 904280696
-# mas 'Tweetbot', id: 1384080005
+mas 'Giphy Capture', id: 668208984
+mas 'Bear', id: 1091189122
+mas 'GoodNotes 5', id: 1444383602
