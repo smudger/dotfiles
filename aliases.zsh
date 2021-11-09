@@ -52,5 +52,5 @@ alias gco="git checkout"
 alias nah="git reset --hard && git clean -df"
 alias unstage="git restore --staged ."
 
-alias branches="git for-each-ref --sort=committerdate refs/heads/ --format='%(color:bold red)%(HEAD)%(color:reset) %(color:bold red)%(refname:short)%(color:reset) (%(color:yellow)%(comm    itterdate:relative)%(color:reset))%0a    [%(color:green)%(objectname:short) %(color:reset)|%(color:green) %(authorname)%(color:reset)] %(contents:subject)'"
-alias rbranches="git for-each-ref --sort=committerdate refs/remotes/ --format='%(color:bold red)%(HEAD)%(color:reset) %(color:bold red)%(refname:short)%(color:reset) (%(color:yellow)%(c    ommitterdate:relative)%(color:reset))%0a    [%(color:green)%(objectname:short) %(color:reset)|%(color:green) %(authorname)%(color:reset)] %(contents:subject)'"
+alias branches="git for-each-ref --sort=committerdate refs/heads/ --format='%(color:bold red)%(HEAD)%(color:reset) %(color:bold red)%(refname:short)%(color:reset) (%(color:yellow)%(committerdate:relative)%(color:reset))%0a    [%(color:green)%(objectname:short) %(color:reset)|%(color:green) %(authorname)%(color:reset)] %(contents:subject)'"
+alias rbranches="git for-each-ref --sort=committerdate refs/remotes/ --format='%(color:bold red)%(HEAD)%(color:reset) %(color:bold red)%(refname:short)%(color:reset) (%(color:yellow)%(committerdate:relative)%(color:reset))%0a    [%(color:green)%(objectname:short) %(color:reset)|%(color:green) %(authorname)%(color:reset)] %(contents:subject)'"

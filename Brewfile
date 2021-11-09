@@ -39,6 +39,8 @@ brew 'memcached'
 brew 'mysql'
 brew 'nginx'
 brew 'node'
+brew 'nvm'
+brew 'python3'
 brew 'redis'
 brew 'yarn'
 
