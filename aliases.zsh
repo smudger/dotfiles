@@ -8,6 +8,8 @@ alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 alias mux="tmuxinator"
 alias weather="curl wttr.in/bromley"
+alias irssi="ssh root@188.166.174.228 -t .irssi/screen"
+alias vim="nvim"
 
 # Directories
 alias dotfiles="cd $DOTFILES"

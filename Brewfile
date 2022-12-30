@@ -4,10 +4,15 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'borkdude/brew'
+tap 'azure/functions'
 
 # Binaries
 brew 'awscli'
+brew 'azure-functions-core-tools@4'
 brew 'bash' # Latest Bash version
+brew 'clojure'
+brew 'clj-kondo'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'gh'
 brew 'git'
@@ -15,8 +20,10 @@ brew 'gnupg'
 brew 'grep'
 brew 'httpie'
 brew 'hub'
+brew 'leiningen'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'openjdk'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
@@ -66,6 +73,7 @@ cask 'tableplus'
 cask 'telegram-desktop'
 cask 'whatsapp'
 cask 'visual-studio-code'
+cask 'vlc'
 
 # Quicklook
 cask 'qlmarkdown'
