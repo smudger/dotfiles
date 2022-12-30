@@ -47,4 +47,6 @@ DOTFILES=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 # Symlink the Mackup config file to the home directory
 # ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
 
-echo "$DOTFILES"
+# Removes any existing kitty config and symlinks our config
+rm -rf $HOME/.config/kitty
+ln -s $DOTFILES/kitty $HOME/.config/kitty
