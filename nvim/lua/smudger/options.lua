@@ -27,3 +27,4 @@ vim.opt.backup = true -- automatically save a backup file
 vim.opt.backupdir:remove('.') -- keep backups out of the current directory
 vim.opt.shortmess:append({ I = true }) -- disable the splash screen
 vim.opt.wildmode = 'longest:full,full' -- complete the longest common match, and allow tabbing the results to fully complete them
+vim.opt.signcolumn = 'yes:1' -- leave space for git signs column even if there aren't any
